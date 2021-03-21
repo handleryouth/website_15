@@ -108,6 +108,7 @@ body{
   display:inline-block;
   margin: 0.5rem 0;
   text-decoration: none;
+  color:hsl(237, 17%, 21%);
 }
 
 
@@ -328,10 +329,12 @@ body{
 
 .laptop-illustration{
   width: 100%;
+
 }
 
 .fourth-page-header{
   font-family: 'Overpass', sans-serif;
+  margin-bottom: 0;
 }
 
 .fourth-page-content{
@@ -586,6 +589,7 @@ body{
   .laptop-illustration{
     float: left;
     width: auto;
+    position:relative;
   }
 
   /*for footer*/
@@ -620,6 +624,9 @@ body{
     padding: 0 3rem;
   }
 
+  .laptop-illustration{
+    bottom:40px;
+  }
 }
 
 @media screen and (min-width: 1586px){
