@@ -24,12 +24,28 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
+/*header in catalog*/
+.catalog-header-before{
+  opacity:1;
+  transition: all 0.5s ease;
+}
+
+.catalog-header-after{
+  opacity:0.5;
+  transition: all 0.5s ease;
+}
+
 .menubar-button1, .menubar-button2{
   width: 10rem;
   height: 3rem;
   margin: 1rem;
   border-radius: 2rem;
   cursor: pointer;
+  border-width: 0;
+}
+
+.menubar-button2{
+  background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
 }
 
 @media(min-width:400px){
@@ -51,9 +67,24 @@ body{
 }
 
 
+.menubar-catalog-arrow-down{
+  transition: all 0.8s ease;
+  transform:rotate(180deg);
+}
+
+
+.menubar-catalog-arrow-up{
+  transition: all 0.8s ease;
+  transform:rotate(0deg)
+}
+
 .sub-product, .sub-company, .sub-connect{
   visibility:hidden;
   display: none;
+}
+
+.menubar-catalog-line{
+  width:15rem;
 }
 
 /*javascript version*/
@@ -76,6 +107,7 @@ body{
 .menubar-catalog-link{
   display:inline-block;
   margin: 0.5rem 0;
+  text-decoration: none;
 }
 
 
@@ -106,7 +138,6 @@ body{
 
  .navbar-button1, .navbar-button2{
    font-family: 'Ubuntu', sans-serif;
-
  }
 
  .navbar-button1{
@@ -125,7 +156,6 @@ body{
   margin: 1rem;
   border-radius: 2rem;
   cursor: pointer;
-
 }
 
 /*for the first page*/
