@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/a2c4d65c9a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<!--three bars-->
+  <div class="menubar-catalog">
+    <div class="product">
+      <h3>Product <img src="images/icon-arrow-dark.svg" alt="icon-arrow"></h3>
+        <div class="sub-product">
+          <a class="menubar-catalog-link" href="#">Overview</a><br>
+          <a class="menubar-catalog-link" href="#">Pricing</a><br>
+          <a class="menubar-catalog-link" href="#">Marketplace</a><br>
+          <a class="menubar-catalog-link" href="#">Features</a><br>
+          <a class="menubar-catalog-link" href="#">Integrations</a>
+        </div>
+
+    </div>
+
+    <div class="company">
+      <h3>Company <img src="images/icon-arrow-dark.svg" alt="icon-arrow"></h3>
+      <div class="sub-company">
+        <a class="menubar-catalog-link" href="#">About</a><br>
+        <a class="menubar-catalog-link" href="#">Team</a><br>
+        <a class="menubar-catalog-link" href="#">Blog</a><br>
+        <a class="menubar-catalog-link" href="#">Careers</a>
+      </div>
+
+    </div>
+
+    <div class="connect">
+      <h3>Connect <img src="images/icon-arrow-dark.svg" alt="icon-arrow"></h3>
+      <div class="sub-connect">
+        <a class="menubar-catalog-link" href="#">Contact</a><br>
+        <a class="menubar-catalog-link" href="#">Newsletter</a><br>
+        <a class="menubar-catalog-link" href="#">LinkedIn</a>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="menubar-button">
+      <button class="menubar-button1" type="button" name="button">Login</button>
+      <button class="menubar-button2" type="button" name="button">Sign Up</button>
+    </div>
+  </div>
+
+
+  <div class="first-page">
+    <img class="first-background-img" src="images/bg-pattern-intro.svg" alt="background-img">
+    <div class="nav-bar">
+      <div class="first-logo">
+        <img src="images/logo.svg" alt="our logo">
+        <div class="long-menu">
+          <a class="long-menu-link" href="#">Product <img src="images/icon-arrow-light.svg" alt="icon-arrow"></a>
+          <a class="long-menu-link" href="#">Company <img src="images/icon-arrow-light.svg" alt="icon-arrow"></a>
+          <a class="long-menu-link" href="#">Connect <img src="images/icon-arrow-light.svg" alt="icon-arrow"></a>
+        </div>
+      </div>
+
+      <div class="menu-bar">
+        <i class="fas fa-bars dropdownButton"></i>
+      </div>
+
+      <div class="navbar-button">
+        <button class="navbar-button1" type="button" name="button">Login</button>
+        <button class="navbar-button2" type="button" name="button">Sign Up</button>
+      </div>
+    </div>
+
+    <div class="first-content">
+      <h1 class="fist-page-header">A modern publishing platform</h1>
+      <span class="first-page-description">Grow your audience and build your online brand</span>
+      <div class="first-button">
+        <button class="button1" type="button" name="button">Start for free</button>
+        <button class="button2" type="button" name="button">Learn more</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="second-page">
+    <h1 class="second-page-header">Designed for the future</h1>
+    <div class="second-content1">
+      <div class="second-page-illustrator">
+            <img class="illustration-editor" src="images/illustration-editor-mobile.svg" alt="illustration">
+      </div>
+      <div class="second-content1-content">
+        <h3>Introducing an extensible editor</h3>
+        <p class="second-page-content">  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+          change the looks of a blog.</p>
+
+          <h3>Robust content management</h3>
+          <p class="second-page-content">  Flexible content management enables users to easily move through posts. Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="third-page">
+    <img class="phone-illustration" src="images/illustration-phones.svg" alt="illustration-phone">
+    <div class="third-page1">
+      <img class="phone-illustration1" src="images/illustration-phones.svg" alt="illustration-phone">
+      <img class="third-page-circle" src="images/bg-pattern-circles.svg" alt="background-circle">
+      <div class="right-content">
+        <h1 class="third-page-header">State of the Art Infrastructure</h1>
+        <p class="third-page-content">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="fourth-page">
+    <img class="laptop-illustration" src="images/illustration-laptop-mobile.svg" alt="Laptop">
+
+    <h3 class="fourth-page-header">Free, open, simple</h3>
+    <p class="fourth-page-content">Blogr is a free and open source application backed by a large community of helpful developers. It supports
+    features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+    and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+
+    <h3>Powerful tooling</h3>
+    <p class="fourth-page-content">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+    capable of producing even the most complicated sites.</p>
+  </div>
+
+  <div class="footer">
+    <img class="footer-logo" src="images/logo.svg" alt="our logo">
+    <div class="product">
+      <h3 class="footer-link">Product</h3>
+      <a class="product-link" href="#">Overview</a><br>
+      <a class="product-link" href="#">Pricing</a><br>
+      <a class="product-link" href="#">Marketplace</a><br>
+      <a class="product-link" href="#">Features</a><br>
+      <a class="product-link" href="#">Integrations</a>
+    </div>
+
+    <div class="Company">
+      <h3 class="footer-link">Company</h3>
+      <a class="product-link" href="#">About</a><br>
+      <a class="product-link" href="#">Team</a><br>
+      <a class="product-link" href="#">Blog</a><br>
+      <a class="product-link" href="#">Careers</a>
+    </div>
+
+    <div class="Connect">
+      <h3 class="footer-link">Contact</h3>
+      <a class="product-link" href="#">Contact</a><br>
+      <a class="product-link" href="#">Newsletter</a><br>
+      <a class="product-link" href="#">Linkedin</a>
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script defer type="text/javascript" src="index.js"> </script>
+</body>
+</html>
